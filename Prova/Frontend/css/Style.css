@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto auto;
+}
+.home01{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgb(121, 228, 219),rgb(226, 55, 12));
+    height: 100vh;
+}
+nav{
+    text-align: left;
+    height: 75px;
+    background-color: rgb(121, 228, 219);
+}
+a{
+    
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+}
+.texto{
+    width: 50%;
+}
+.titulo{
+    text-align: center;
+}
+.home02{
+    padding-top: 50px;
+    background-image: linear-gradient(rgb(226, 55, 12),rgb(60, 128, 145));
+    
+}
+.home02 img{
+    height:300px;
+    width: 300px;
+    border-radius: 500px ;
+    border-color: rgb(121, 228, 219);
+    border-width: 5px;
+   border-style: groove;
+  
+
+}
+.home02.coluna-esquerda{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.home02 .coluna-direita{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.home02 .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.home03{
+    background-image: linear-gradient(rgb(60, 128, 145),rgb(12, 12, 12));
+}
+.home03 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    border-width: 5px;
+    border-color: rgb(121, 228, 219);
+    border-style: groove;
+    
+}
+.home03.coluna-esquerda{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding-top: 100px;
+
+}
+.home03 .coluna-direita{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.home03 .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape{
+    background-color: rgb(121, 228, 219);
+    color: aliceblue;
+}
+.rodape .max-width{
+    background-color: rgb(12, 12, 12);
+}
+*{background-color: rgba(0, 0, 0, 0);}
+    button{
+        width: 150px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 5px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid rgb(0, 0, 0);
+        background:rgb(0, 0, 0);
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        }
+main{
+    background-color: black;
+}
+main h1{
+color: #fff;
+border-bottom-color: #fff;
+border-bottom-style:solid;
+border-bottom-width: 2px;
+}
+main P{
+color: #fff;
+}
